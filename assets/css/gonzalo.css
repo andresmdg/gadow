@@ -1,0 +1,110 @@
+html *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #4973FF;
+}
+
+main{
+    position: relative;
+    height: 90vh;
+    border-radius: 0 0 3rem 3rem;
+    background-color: #051321;
+}
+
+.community{
+    position: relative;
+    height: 60%;
+    width: 50%;
+    padding-top: 7%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+
+.community *{
+    margin: 1rem 0 1rem 0;
+}
+
+.community h2{
+    font-size:2.6rem;
+    font-weight: 700;
+    color: #FBFBFC;
+}
+
+.community p{
+    color: #FBFBFC;
+    font-size:.8em;
+    width: 80%;
+    margin: 0 auto 1rem auto;
+}
+
+span{
+    color: #224fe1;
+}
+
+
+.enter{
+    background: linear-gradient(0.30turn, #7D4CFF, #4973FF,#125ba9);
+    border: none;
+    width: 20%;
+    padding: .7em;
+    border-radius: 3rem;
+    margin: .5rem;
+    color: #FBFBFC;
+}
+
+button:hover{
+    background: linear-gradient(0.30turn,  #125ba9, #4973FF, #7D4CFF);
+    transition: .2s ease;
+}
+
+.button button[id='active']{
+    background-color: #FBFBFC;
+    border: none;
+    width: 20%;
+    padding: .7em;
+    border-radius: 3rem;
+    margin: .5rem;
+    color: #224fe1;
+}
+
+#active:hover{
+    background: linear-gradient(0.30turn,  #125ba9, #4973FF, #7D4CFF);
+    transition: .2s ease;
+    color: #FBFBFC;
+}
+
+
+.register{
+    background-color: #051321;
+    border-radius: 0 0 3rem 3rem;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #FBFBFC;
+}
+
+.register button{
+    background: linear-gradient(0.25turn, #7D4CFF, #4973FF,#125ba9);
+    border: none;
+    width: 15%;
+    padding: .9em;
+    border-radius: 3rem;
+    margin: 1rem;
+    color: #FBFBFC;
+}
+
+.register *{
+    margin: 1rem 0;
+}
