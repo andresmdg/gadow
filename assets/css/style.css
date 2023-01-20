@@ -1,0 +1,161 @@
+:root {
+
+    /* Colors */
+
+    --footer-bg: #0C223A;
+    --section-bg: #051321;
+    --gray-color: #7F8995;
+    --white-color: #FBFBFC;
+    --lg_gray-color: #DFDEDE;
+    --blue-color: rgb(74, 116, 255);
+    --purple-color: rgb(125, 76, 255);
+
+    /* Font Family */
+    --primary-font: 'Roboto';
+}
+
+/* Tags */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: var(--white-color);
+    font-family: var(--primary-font), sans-serif;
+}
+
+/* Classes */
+
+.who {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background: var(--purple-color);
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background: linear-gradient(45deg, #7D4CFF, #4973FF, #125ba9);
+    background: -moz-linear-gradient(45deg, #7D4CFF, #4973FF, #125ba9);
+    background: -webkit-linear-gradient(45deg, #7D4CFF, #4973FF, #125ba9);
+}
+
+.who-gallery {
+    gap: 1rem;
+    width: 80%;
+    height: 70%;
+    display: grid;
+    padding: 1rem;
+    grid-auto-rows: 20%;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.gallery__item {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.gallery__item:nth-child(1) {
+    grid-row-start: span 3;
+}
+
+.gallery__item:nth-child(2) {
+    grid-row-start: span 2;
+    grid-column-start: span 2;
+}
+
+.gallery__item:nth-child(3) {
+    grid-column-start: 2;
+}
+
+.gallery__item:nth-child(4) {
+    grid-column-start: 3;
+}
+
+.gallery__item:nth-child(5) {
+    grid-row-start: 1;
+    grid-row-end: span 3;
+    grid-column-start: 4;
+    grid-column-end: 4;
+}
+
+.gallery__item:nth-child(6) {
+    grid-row-start: 1;
+    grid-row-end: span 3;
+    grid-column-start: 5;
+    grid-column-end: span 6;
+}
+
+.item__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.item__title {
+    bottom: 60%;
+    position: relative;
+}
+
+/* Media Queries */
+
+@media all and (min-width: 31em) and (max-width: 48em) {
+    .who-gallery {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .gallery__item {
+        width: 40%;
+        height: 20vh;
+    }
+}
+
+@media all and (min-width: 20em) and (max-width: 30.99em) {
+
+    /* Tags */
+
+    .who {
+        font-size: 0.75rem;
+    }
+
+    .who h2[class="item__title"] {
+        font-size: 1rem;
+    }
+
+    .who-title {
+        margin-bottom: 1.5rem;
+    }
+
+    .who-title h2 {
+        margin: 1rem 0;
+    }
+
+    .who-title p {
+        margin: auto;
+        max-width: 90%;
+    }
+
+    /* tranqui..... */
+
+    /* Classes */
+
+    .who-gallery {
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .gallery__item {
+        width: 45%;
+        height: 15vh;
+    }
+}
