@@ -1,0 +1,32 @@
+:root {
+
+  /* Colors */
+
+  --footer-bg: #0C223A;
+  --section-bg: #051321;
+  --gray-color: #7F8995;
+  --white-color: #FBFBFC;
+  --lg_gray-color: #DFDEDE;
+  --blue-color: rgb(74, 116, 255);
+  --purple-color: rgb(125, 76, 255);
+
+  /* Font Family */
+  --primary-font: 'Roboto';
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto';
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+
+}
+
+a {
+  text-decoration: none;
+}
