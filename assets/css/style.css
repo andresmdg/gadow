@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html *{
     margin: 0;
     padding: 0;
@@ -11,3 +12,227 @@ body{
 
 
 
+=======
+/* Footer */
+*{margin:0; padding:0; box-sizing: border-box;} /* ajuste del standar*/
+
+@import url("link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Maven+Pro&family=Montserrat:wght@400;500&display=swap" rel="stylesheet");
+
+
+
+
+
+.footer {
+  
+  display: flex;
+  background-color:  #0C223A;
+  justify-content:space-around; 
+  font-family: 'Montserrat', sans-serif;
+}
+.caja1 img{
+ 
+  width: 7.2%;
+}
+
+  .caja1 {
+    
+    
+    color: #FBFBFC;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    background-color:  #0C223A;
+    justify-content: center;
+    align-items: center;
+    transition: 1s all;
+    cursor: pointer;
+      
+  }
+  .Caja1-logo{
+
+        margin: 10px;
+  }
+  .footer-titulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  }
+  h2 {
+ font-size: 2rem;
+  }
+  .caja2 {
+    display: flex;
+    color: #7F8995;
+    text-align: left;
+    margin-bottom: 3rem;
+    padding: 3rem;
+    transition: 1s all;
+    cursor: pointer;
+    
+  }
+  h4 {
+  color: #FBFBFC;
+  
+  }
+  ul {
+   list-style: none;
+   
+  }
+  
+  .caja2 ul li {
+
+   
+    text-align: left;
+    padding: 0;
+    margin: .5rem 0;
+  }
+
+  .caja2 ul {
+
+    display: flex;
+    flex-direction: column;
+    list-style-position: outside;
+    padding: 0;
+    margin: 0;
+  }
+  .columnas {
+
+    margin: 0 2rem;
+  }
+
+
+  .icons {
+
+    margin-left: 5px;
+    margin-top: 15px;
+    
+   
+
+  }
+
+  
+  .svg-icon {
+    width: 1em;
+    height: 1em;
+  }
+  
+  .svg-icon path,
+  .svg-icon polygon,
+  .svg-icon rect {
+    fill: #FBFBFC;
+  }
+  
+  .svg-icon circle {
+    stroke: white;
+    stroke-width: 1;
+  }
+
+  .copyright {
+
+    padding-top: 3rem;
+    font-size: 0.5rem;
+    color: #7F8995
+  }
+
+  @media all and (min-width: 20em) and (max-width: 30em){
+   
+    .footer {
+  
+    flex-direction: column;
+    width: 100%;
+    font-size: 0.75rem;
+    
+      
+    }
+
+    .caja2 {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      width: 100%;
+      padding: 0;
+      margin: 0;
+     
+      
+    }
+
+    .caja2 ul {
+      font-size: 0.8rem;
+      display: flex;
+      flex-wrap: wrap;
+      list-style-position: outside;
+      padding: 0;
+      margin: 0;
+      width: 100%;
+      text-align: center;
+      
+    }
+    .caja2 ul li {
+
+     
+      text-align: center;
+    
+      
+    }
+    .copyright {
+
+      padding: 1.5rem 0;
+      font-size: 0.5rem;
+      color: #7F8995
+    }
+
+  }
+
+@media all and (min-width: 30em) and (max-width: 48em){
+
+  .footer {
+  
+    display: flex;
+    width: 100%;
+    font-size: 0.75rem;
+    
+      
+    }
+
+    .caja2 {
+      display: flex;
+      flex-direction: row;
+      text-align: left;
+      width: 100%;
+      padding: 0;
+      margin: 0;
+     
+      
+    }
+
+    .caja2 ul {
+      font-size: 0.5rem;
+      display: flex;
+      flex-wrap: wrap;
+      list-style-position: outside;
+      padding: 0;
+      margin: 0;
+      width: 100%;
+      text-align: left;
+      
+    }
+    .caja2 ul li {
+
+       
+      text-align: left;
+      
+    
+      
+    }
+    .copyright {
+
+      padding: 1.5rem 0;
+      font-size: 0.5rem;
+      color: #7F8995
+    }
+
+}
+>>>>>>> origin/rafa
