@@ -1,110 +1,83 @@
-html *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-
-body{
-    background-color: #4973FF;
-}
-
-main{
-    position: relative;
-    height: 90vh;
+.community {
+    height: 100vh;
+    width: 100vw;
+    margin: auto;
+    display: flex;
+    padding-top: 7%;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    justify-content: flex-start;
     border-radius: 0 0 3rem 3rem;
     background-color: #051321;
 }
 
-.community{
-    position: relative;
-    height: 60%;
-    width: 50%;
-    padding-top: 7%;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    text-align: center;
-}
 
-
-.community *{
+.community * {
     margin: 1rem 0 1rem 0;
 }
 
-.community h2{
-    font-size:2.6rem;
-    font-weight: 700;
+.community h2 {
     color: #FBFBFC;
+    font-weight: 700;
+    font-size: 2.6rem;
 }
 
-.community p{
-    color: #FBFBFC;
-    font-size:.8em;
+.community p {
     width: 80%;
+    color: #FBFBFC;
+    font-size: .8em;
     margin: 0 auto 1rem auto;
 }
 
-span{
-    color: #224fe1;
-}
-
-
-.enter{
-    background: linear-gradient(0.30turn, #7D4CFF, #4973FF,#125ba9);
-    border: none;
+.enter {
     width: 20%;
+    border: none;
     padding: .7em;
-    border-radius: 3rem;
     margin: .5rem;
     color: #FBFBFC;
+    border-radius: 3rem;
+    background: linear-gradient(0.30turn, #7D4CFF, #4973FF, #125ba9);
 }
 
-button:hover{
-    background: linear-gradient(0.30turn,  #125ba9, #4973FF, #7D4CFF);
-    transition: .2s ease;
-}
-
-.button button[id='active']{
+.button button[id='active'] {
+    width: 20%;
+    border: none;
+    padding: .7em;
+    margin: .5rem;
+    color: #224fe1;
+    border-radius: 3rem;
     background-color: #FBFBFC;
-    border: none;
-    width: 20%;
-    padding: .7em;
-    border-radius: 3rem;
-    margin: .5rem;
-    color: #224fe1;
 }
 
-#active:hover{
-    background: linear-gradient(0.30turn,  #125ba9, #4973FF, #7D4CFF);
-    transition: .2s ease;
+#active:hover {
     color: #FBFBFC;
+    transition: .2s ease;
+    background: linear-gradient(0.30turn, #125ba9, #4973FF, #7D4CFF);
 }
 
 
-.register{
-    background-color: #051321;
-    border-radius: 0 0 3rem 3rem;
+.register {
     height: 60vh;
     display: flex;
-    flex-direction: column;
+    color: #FBFBFC;
     align-items: center;
+    flex-direction: column;
     justify-content: center;
-    color: #FBFBFC;
+    background-color: #051321;
+    border-radius: 0 0 3rem 3rem;
 }
 
-.register button{
-    background: linear-gradient(0.25turn, #7D4CFF, #4973FF,#125ba9);
-    border: none;
+.register button {
     width: 15%;
-    padding: .9em;
-    border-radius: 3rem;
+    border: none;
     margin: 1rem;
+    padding: .9em;
     color: #FBFBFC;
+    border-radius: 3rem;
+    background: linear-gradient(0.25turn, #7D4CFF, #4973FF, #125ba9);
 }
 
-.register *{
+.register * {
     margin: 1rem 0;
 }

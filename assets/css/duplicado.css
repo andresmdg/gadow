@@ -1,0 +1,10 @@
+/* span Gonzalo*/
+
+span{
+  color: #224fe1;
+}
+/* Gonzalo button */
+button:hover{
+  background: linear-gradient(0.30turn,  #125ba9, #4973FF, #7D4CFF);
+  transition: .2s ease;
+}
