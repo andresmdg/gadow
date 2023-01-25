@@ -12,14 +12,12 @@
   background: var(--purple-color);
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px;
-  /* background: linear-gradient(45deg, #7D4CFF, #4973FF, #125ba9);
-  background: -moz-linear-gradient(45deg, #7D4CFF, #4973FF, #125ba9);
-  background: -webkit-linear-gradient(45deg, #7D4CFF, #4973FF, #125ba9); */
-  background-color: yellow;
+  background: linear-gradient(45deg, #6942d4, #5275ec, #125ba9);
+  background: -moz-linear-gradient(45deg, #673fd2, #5275e8, #125ba9);
+  background: -webkit-linear-gradient(45deg, #603ac9, #5274e6, #125ba9);
 }
 
 .who-gallery {
-  background-color: red;
   gap: 1rem;
   width: 80%;
   height: 70%;
@@ -30,8 +28,8 @@
 }
 
 .who-title{
-  background-color: green;
-  margin-bottom: 3rem;
+  margin: 0 auto 3rem auto;
+  width: 60%;
 
 }
 

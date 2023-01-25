@@ -6,23 +6,18 @@
 
 .interior {
     max-width: 100%;
-    padding: 0 10px;
-    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
 }
 
-.logo {
-    float: left;
-    padding: 15px 20px 0;
-
+.logoName{
+    display: flex;
 }
 
-.logo img {
-    height: 60px;
-
-}
-
-.logo:hover {
-    transform: scale(1.1);
+.logoName img{
+    width: 70%;
+    height: 20%;
 }
 
 .navegacion {
@@ -68,11 +63,11 @@
     border-radius: 20px;
 }
 
-.flex-p {
+/* .flex-p {
     font-size: 30px;
     color: #FBFBFC;
     position: absolute;
     top: 30px;
     left: 95px;
     font-weight: bold;
-}
+} */
